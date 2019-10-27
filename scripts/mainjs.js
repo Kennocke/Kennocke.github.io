@@ -5,7 +5,7 @@ function lab1() {
 	but_elem[1].style.fontWeight='normal';
 	but_elem[2].style.fontWeight='normal';
 	elem[0].setAttribute("src", "pages/lab1.html");
-	elem[0].style.height = "3750px";
+	elem[0].style.height = "2900px";
 	elem[0].style.marginBottom = "50px";
 };
 
