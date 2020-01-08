@@ -27,6 +27,6 @@ function lab3() {
 	but_elem[0].style.fontWeight='normal';
 	but_elem[1].style.fontWeight='normal';
 	elem[0].setAttribute("src", "pages/lab3.html");
-	elem[0].style.height = "800px";
+	elem[0].style.height = "14500px";
 	elem[0].style.marginBottom = "50px";
 };

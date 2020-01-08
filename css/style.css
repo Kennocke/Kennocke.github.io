@@ -107,3 +107,23 @@ iframe {
   margin-left: 50px;
   margin-bottom: 50px;
 }
+
+#toTop {
+  width:100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #ccc;
+  background: #00FF00;
+  text-align:center;
+  padding:5px;
+  position:fixed;
+  bottom:30px; /* отступ кнопки от нижнего края страницы*/
+  left:30px;
+  cursor:pointer;
+  color:#333;
+  font-family:verdana;
+  font-size:13px;
+  border-radius: 10px;
+}

@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+		}});
+
+		$('#toTop').click(function() {
+			$('body,html').animate({scrollTop:0},800);
+		});
+	});
+</script>
 <head>
 	<title>Портфолио</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="scripts/mainjs.js"></script>
 </head>
+<DIV ID = "toTop"> ^ Наверх </DIV>
 <body>
 	<h1 class="main-title" align="right">Витковский Станислав Евгеньевич ИДМ-19-03</h1>
 	<div class="main-wrapper">
@@ -18,9 +34,9 @@
 			</nav>
 			<main>
 				<div class="main-content">
-					<iframe src="pages/lab1.html" height="2900px" scrolling="no">	
+					<iframe src="pages/lab1.html" height="2900px" scrolling="no">
 					</iframe>
-				</div>	
+				</div>
 			</main>
 		</div>
 	</div>
